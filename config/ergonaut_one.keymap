@@ -47,10 +47,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&kp LGUI   &kp PAGE_UP    &kp HOME   &kp UP_ARROW  &kp END      &kp C_VOLUME_UP    &kp MINUS  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp CLCK
-&kp LCTRL  &kp PAGE_DOWN  &kp LEFT   &kp DOWN      &kp RIGHT    &kp K_MUTE         &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp RCTRL
-&kp LALT   &kp INSERT     &kp K_CUT  &kp K_COPY    &kp K_PASTE  &kp C_VOLUME_DOWN  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp RALT
-                                     &trans        &trans       &trans             &trans     &trans        &trans
+&kp LGUI   &kp PAGE_UP    &kp HOME   &kp UP      &kp END      &kp C_VOLUME_UP    &kp MINUS  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp CLCK
+&kp LCTRL  &kp PAGE_DOWN  &kp LEFT   &kp DOWN    &kp RIGHT    &kp K_MUTE         &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp RCTRL
+&kp LALT   &kp INSERT     &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp C_VOLUME_DOWN  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp RALT
+                                     &trans      &trans       &trans             &trans     &trans        &trans
             >;
         };
 

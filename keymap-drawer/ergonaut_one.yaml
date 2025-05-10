@@ -112,7 +112,7 @@ layers:
   - /
   - Ctrl
   - Alt
-  - ␣
+  - INSERT
   - CUT
   - COPY
   - PASTE

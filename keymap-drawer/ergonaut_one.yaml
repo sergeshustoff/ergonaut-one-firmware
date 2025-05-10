@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
-  default:
-  - {t: ']', h: Gui}
+  MAIN:
+  - {t: Esc, h: Gui}
   - Q
   - W
   - E
@@ -11,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - BACKSPACE
   - {t: '`', h: Ctrl}
   - A
   - S
@@ -36,91 +37,91 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  lower:
-  - {t: F1, h: Gui}
+  - {t: ⏎, h: SYM}
+  - {t: BACKSPACE, h: RIGHT ALT}
+  - {t: ␣, h: Shift}
+  - {t: ⌦, h: Ctrl}
+  SYM:
+  - Gui
+  - F1
   - F2
   - F3
   - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
+  - LEFT SHIFT
   - '!'
   - '@'
   - '#'
   - $
   - '%'
   - ^
+  - Ctrl
+  - F5
+  - F6
+  - F7
+  - F8
+  - Ctrl
   - '&'
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - '['
+  - ']'
+  - Alt
+  - F9
+  - F10
+  - F11
+  - F12
+  - LEFT ALT
+  - '-'
+  - _
+  - +
+  - '='
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM:
+  - Gui
+  - PAGE UP
+  - Home
+  - UP ARROW
+  - End
+  - VOLUME UP
+  - '-'
   - '7'
   - '8'
   - '9'
-  - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
+  - '*'
   - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
+  - Ctrl
+  - PAGE DOWN
   - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
   - ↓
-  - Page Down
-  - Pause Break
+  - →
+  - MUTE
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - Ctrl
+  - Alt
+  - ␣
+  - CUT
+  - COPY
+  - PASTE
+  - VOLUME DOWN
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
   - Alt
   - {type: held}
   - {t: ▽, type: trans}
@@ -128,8 +129,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  ADJ:
   - Boot
+  - '&studio_unlock'
   - ''
   - ''
   - ''
@@ -138,8 +140,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&studio_unlock'
   - Boot
   - BT CLR
   - BT 1

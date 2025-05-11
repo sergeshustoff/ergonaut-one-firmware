@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        right_reset {
+            bindings = <&sys_reset>;
+            key-positions = <41 39 35 35>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

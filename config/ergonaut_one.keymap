@@ -35,22 +35,22 @@
         };
 
         lower_layer {
-            display-name = "SYM";
+            display-name = "ARR";
             bindings = <
-&kp LGUI   &kp F1  &kp F2   &kp F3   &kp F4   &kp LEFT_SHIFT  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH              &kp DOLLAR             &kp PERCENT       &kp CARET
-&kp LCTRL  &kp F5  &kp F6   &kp F7   &kp F8   &kp LCTRL       &kp AMPERSAND    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LALT   &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_ALT    &kp MINUS        &kp UNDERSCORE  &kp PLUS              &kp EQUAL              &kp LEFT_BRACE    &kp RIGHT_BRACE
-                            &trans   &trans   &trans          &trans           &trans          &trans
+&kp LGUI   &kp F1  &kp F2   &kp F3   &kp F4   &kp LEFT_SHIFT  &kp PAGE_UP    &kp HOME   &kp UP      &kp END      &kp C_VOLUME_UP    &kp RIGHT_WIN
+&kp LCTRL  &kp F5  &kp F6   &kp F7   &kp F8   &kp LCTRL       &kp PAGE_DOWN  &kp LEFT   &kp DOWN    &kp RIGHT    &kp C_MUTE         &kp RCTRL
+&kp LALT   &kp F9  &kp F10  &kp F11  &kp F12  &kp LEFT_ALT    &kp INSERT     &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp C_VOLUME_DOWN  &kp RIGHT_ALT
+                            &trans   &trans   &trans          &trans         &trans     &trans
             >;
         };
 
         raise_layer {
             display-name = "NUM";
             bindings = <
-&kp LGUI   &kp PAGE_UP    &kp HOME   &kp UP      &kp END      &kp C_VOLUME_UP    &kp MINUS  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp CLCK
-&kp LCTRL  &kp PAGE_DOWN  &kp LEFT   &kp DOWN    &kp RIGHT    &kp K_MUTE         &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp RCTRL
-&kp LALT   &kp INSERT     &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp C_VOLUME_DOWN  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp RALT
-                                     &trans      &trans       &trans             &trans     &trans        &trans
+&kp CARET  &kp EXCL      &kp AT       &kp HASH        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp CLCK
+&kp PLUS   &kp DOLLAR    &kp PERCENT  &kp AMPERSAND   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp RCTRL
+&kp MINUS  &kp ASTERISK  &kp EQUAL    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &kp RALT
+                                      &trans          &trans                &trans                 &trans     &trans        &trans
             >;
         };
 

@@ -40,9 +40,9 @@ layers:
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: ARR}
-  - {t: BACKSPACE, h: RIGHT ALT}
+  - {t: BACKSPACE, h: Ctrl}
   - {t: ␣, h: Shift}
-  - {t: ⌦, h: Ctrl}
+  - {t: ⌦, h: RIGHT ALT}
   ARR:
   - Gui
   - F1

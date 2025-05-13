@@ -172,6 +172,3 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [41, 39, 35, 35]
-  k: Reset

@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: Esc, h: Gui}
-  - Q
+  - ''
+  - ''
   - W
   - E
   - R
@@ -11,9 +11,9 @@ layers:
   - U
   - I
   - O
-  - P
-  - BACKSPACE
-  - {t: '`', h: Ctrl}
+  - ''
+  - ''
+  - Q
   - A
   - S
   - D
@@ -23,9 +23,9 @@ layers:
   - J
   - K
   - L
-  - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - P
+  - ''''
+  - '`'
   - Z
   - X
   - C
@@ -35,85 +35,85 @@ layers:
   - M
   - ','
   - .
+  - ;
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: NUM}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: ARR}
-  - {t: BACKSPACE, h: ARR}
-  - {t: ␣, h: Shift}
-  - {t: ⌦, h: NUM}
+  - {t: ↹, h: LEFT SHIFT}
+  - {t: ENTER, h: ARR}
+  - ␣
+  - BACKSPACE
+  - {t: ESCAPE, h: NUM}
+  - {t: ⌦, h: RIGHT SHIFT}
   ARR:
-  - Gui
+  - Boot
+  - Reset
   - F1
   - F2
   - F3
   - F4
-  - LEFT SHIFT
   - PAGE UP
   - Home
   - ↑
   - End
-  - VOLUME UP
-  - RIGHT WIN
-  - Ctrl
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
-  - Ctrl
   - PAGE DOWN
   - ←
   - ↓
   - →
-  - MUTE
-  - Ctrl
-  - Alt
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
-  - LEFT ALT
   - INSERT
   - CUT
   - COPY
   - PASTE
-  - VOLUME DOWN
-  - RIGHT ALT
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NUM:
-  - {t: ^, h: LEFT WIN}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '!'
   - '@'
-  - '#'
   - '['
   - ']'
   - '-'
   - '7'
   - '8'
   - '9'
-  - '*'
-  - CLCK
-  - {t: +, h: Ctrl}
+  - Reset
+  - Boot
+  - \
+  - '#'
   - $
   - '%'
-  - '&'
   - '{'
   - '}'
   - +
   - '4'
   - '5'
   - '6'
-  - /
-  - Ctrl
-  - {t: '-', h: LEFT ALT}
   - '*'
+  - /
+  - ^
   - '='
+  - '&'
   - _
   - (
   - )
@@ -122,12 +122,12 @@ layers:
   - '2'
   - '3'
   - .
-  - Alt
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
   - Boot
@@ -166,9 +166,26 @@ layers:
   - ''
   - ''
   - Reset
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {type: held}
-  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+combos:
+- p: [15, 16]
+  k: LEFT SHIFT
+- p: [19, 20]
+  k: RIGHT SHIFT
+- p: [13, 14]
+  k: Ctrl
+- p: [21, 22]
+  k: Ctrl
+- p: [27, 28]
+  k: LEFT ALT
+- p: [32, 31]
+  k: RIGHT ALT
+- p: [25, 26]
+  k: LEFT WIN
+- p: [33, 34]
+  k: RIGHT WIN

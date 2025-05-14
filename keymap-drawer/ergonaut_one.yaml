@@ -124,7 +124,7 @@ layers:
   - '='
   - /
   - LEFT ALT
-  - {t: ▽, type: trans}
+  - ''
   - LEFT WIN
   - ''
   - {type: held}

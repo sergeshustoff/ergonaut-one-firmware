@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - ''
-  - ''
+  - {t: game, h: toggle}
   - Q
   - A
   - S
@@ -172,20 +172,71 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
+  game:
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: MAIN, h: toggle}
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: MAIN, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ␣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [15, 16]
   k: LEFT SHIFT
+  l: [MAIN, NUM, ARR]
 - p: [19, 20]
   k: RIGHT SHIFT
+  l: [MAIN, ARR, NUM]
 - p: [13, 14]
   k: Ctrl
+  l: [MAIN, ARR, NUM]
 - p: [21, 22]
   k: Ctrl
+  l: [MAIN, ARR, NUM]
 - p: [27, 28]
   k: LEFT ALT
+  l: [MAIN, ARR, NUM]
 - p: [32, 31]
   k: RIGHT ALT
+  l: [MAIN, ARR, NUM]
 - p: [25, 26]
   k: LEFT WIN
+  l: [MAIN, ARR, NUM]
 - p: [33, 34]
   k: RIGHT WIN
+  l: [MAIN, ARR, NUM]

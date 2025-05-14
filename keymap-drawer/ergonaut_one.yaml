@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - ''
-  - {t: game, h: toggle}
+  - ''
   - Q
   - A
   - S
@@ -54,7 +54,7 @@ layers:
   - Home
   - ↑
   - End
-  - {t: ▽, type: trans}
+  - {t: game, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,48 +173,48 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   game:
-  - {t: ▽, type: trans}
+  - '`'
   - Q
   - W
   - E
   - R
   - T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: MAIN, h: toggle}
+  - ''
   - LEFT SHIFT
   - A
   - S
   - D
   - F
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Ctrl
   - Z
   - X
   - C
   - V
   - B
-  - {t: MAIN, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ALT
+  - ↹
   - ␣
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [15, 16]
   k: LEFT SHIFT

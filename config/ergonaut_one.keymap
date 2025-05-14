@@ -71,6 +71,42 @@
             key-positions = <33 34>;
             layers = <0 1 2>;
         };
+
+        lctrl+shift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <15 14>;
+            layers = <0 2 1>;
+        };
+
+        rctrl+shift {
+            bindings = <&kp RC(RIGHT_SHIFT)>;
+            key-positions = <20 21>;
+            layers = <0 2 1>;
+        };
+
+        lctrl+alt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <14 27>;
+            layers = <0 2 1>;
+        };
+
+        rctrl+alt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <32 21>;
+            layers = <0 2 1>;
+        };
+
+        lshift+alt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <15 28>;
+            layers = <0 2 1>;
+        };
+
+        rshift+alt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <31 20>;
+            layers = <0 2 1>;
+        };
     };
 
     keymap {
@@ -89,20 +125,20 @@
         lower_layer {
             display-name = "ARR";
             bindings = <
-&bootloader  &sys_reset  &kp F1  &kp F2   &kp F3   &kp F4   &kp PAGE_UP    &kp HOME   &kp UP      &kp END      &to 4            &trans
-&trans       &trans      &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_DOWN  &kp LEFT   &kp DOWN    &kp RIGHT    &kp PRINTSCREEN  &trans
-&trans       &trans      &kp F9  &kp F10  &kp F11  &kp F12  &kp INSERT     &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp DELETE       &trans
-                                 &trans   &trans   &trans   &trans         &trans     &trans
+&bootloader  &sys_reset  &kp F1  &kp F2   &kp F3   &kp F4   &kp PAGE_UP    &kp HOME   &kp UP         &kp END      &to 4            &none
+&none        &none       &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_DOWN  &kp LEFT   &kp DOWN       &kp RIGHT    &kp PRINTSCREEN  &none
+&none        &none       &kp F9  &kp F10  &kp F11  &kp F12  &kp INSERT     &kp K_CUT  &kp K_COPY     &kp K_PASTE  &kp DELETE       &none
+                                 &none    &trans   &none    &kp RCTRL      &none      &kp RIGHT_ALT
             >;
         };
 
         raise_layer {
             display-name = "NUM";
             bindings = <
-&trans     &trans    &kp EXCLAMATION  &kp AT_SIGN     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &kp N7        &kp N8        &kp N9        &sys_reset    &bootloader
+&none      &none     &kp EXCLAMATION  &kp AT_SIGN     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &kp N7        &kp N8        &kp N9        &sys_reset    &bootloader
 &kp EQUAL  &kp HASH  &kp DOLLAR       &kp PERCENT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp BACKSLASH
 &kp CARET  &kp PIPE  &kp AMPERSAND    &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp SLASH
-                                      &trans          &trans                &trans                 &trans     &trans        &trans
+                                      &kp LEFT_ALT    &trans                &kp LEFT_WIN           &none      &trans        &none
             >;
         };
 
@@ -112,13 +148,13 @@
 &bootloader  &studio_unlock  &none         &none         &none         &none         &none         &none         &none         &none         &studio_unlock  &bootloader
 &bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0    &bt BT_CLR
 &sys_reset   &none           &none         &none         &none         &none         &none         &none         &none         &none         &none           &sys_reset
-                                           &trans        &none         &trans        &none         &trans        &trans
+                                           &none         &trans        &none         &none         &trans        &none
             >;
         };
 
         game {
             bindings = <
-&kp GRAVE       &kp Q  &kp W  &kp E         &kp R    &kp T      &none  &none  &none  &none  &to 0  &none
+&kp GRAVE       &kp Q  &kp W  &kp E         &kp R    &kp T      &none  &none  &none  &none  &none  &to 0
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F    &kp G      &none  &none  &none  &none  &none  &none
 &kp LCTRL       &kp Z  &kp X  &kp C         &kp V    &kp B      &none  &none  &none  &none  &none  &none
                               &kp LEFT_ALT  &kp TAB  &kp SPACE  &none  &none  &none

@@ -38,14 +38,14 @@ layers:
   - ;
   - /
   - {t: ↹, h: LEFT SHIFT}
-  - {t: ENTER, h: ARR}
+  - {t: ESCAPE, h: NUM}
   - ␣
   - BACKSPACE
-  - {t: ESCAPE, h: NUM}
+  - {t: ENTER, h: ARR}
   - {t: ⌦, h: RIGHT SHIFT}
   ARR:
-  - Boot
-  - Reset
+  - ''
+  - ''
   - F1
   - F2
   - F3
@@ -54,8 +54,8 @@ layers:
   - Home
   - ↑
   - End
-  - {t: game, h: toggle}
-  - ''
+  - Reset
+  - Boot
   - ''
   - ''
   - F5
@@ -80,15 +80,15 @@ layers:
   - PASTE
   - DELETE
   - ''
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - Ctrl
   - ''
   - {type: held}
   - ''
-  - Ctrl
-  - ''
-  - RIGHT ALT
   NUM:
-  - ''
-  - ''
+  - Boot
+  - Reset
   - '!'
   - '@'
   - '['
@@ -97,8 +97,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - Reset
-  - Boot
+  - {t: game, h: toggle}
+  - ''
   - '='
   - '#'
   - $
@@ -123,12 +123,12 @@ layers:
   - '3'
   - '='
   - /
-  - LEFT ALT
-  - ''
-  - LEFT WIN
   - ''
   - {type: held}
   - ''
+  - RIGHT WIN
+  - {t: ▽, type: trans}
+  - RIGHT ALT
   ADJ:
   - Boot
   - '&studio_unlock'

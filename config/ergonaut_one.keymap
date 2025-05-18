@@ -10,17 +10,9 @@
 #define REQUIRE_PRIOR_IDLE_MS 175
 #define TAPPING_TERM_MS 280
 
-&lt {
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <QUICK_TAP_MS>;
-};
+&lt { quick-tap-ms = <200>; };
 
-&mt {
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <QUICK_TAP_MS>;
-};
+&mt { quick-tap-ms = <200>; };
 
 / {
     behaviors {
@@ -31,8 +23,8 @@
 
             flavor = "balanced";
             tapping-term-ms = <280>;
-            quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <175>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
         };
@@ -44,8 +36,8 @@
 
             flavor = "balanced";
             tapping-term-ms = <280>;
-            quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <175>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
         };
@@ -78,10 +70,10 @@
         lower_layer {
             display-name = "SYM+ARR";
             bindings = <
-&none          &none               &kp EXCLAMATION  &kp QUESTION          &kp EQUAL              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME     &kp UP         &kp END     &sys_reset       &bootloader
-&kp SLASH      &hml LEFT_SHIFT AT  &hml LCTRL HASH  &hml LEFT_ALT DOLLAR  &hml LEFT_WIN PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT     &kp DOWN       &kp RIGHT   &kp RIGHT_SHIFT  &none
-&kp BACKSLASH  &kp CARET           &kp PIPE         &kp AMPERSAND         &kp UNDERSCORE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp PAGE_DOWN  &kp INSERT  &kp DELETE       &none
-                                                    &trans                &trans                 &trans                &none                  &trans       &none
+&none          &none                 &kp EXCLAMATION       &kp QUESTION              &kp COLON            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME     &kp UP         &kp END     &sys_reset       &bootloader
+&kp CARET      &hml LEFT_SHIFT PIPE  &hml LCTRL AMPERSAND  &hml LEFT_ALT UNDERSCORE  &hml LEFT_WIN EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT     &kp DOWN       &kp RIGHT   &kp RIGHT_SHIFT  &none
+&kp BACKSLASH  &kp AT                &kp HASH              &kp DOLLAR                &kp PERCENT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp PAGE_DOWN  &kp INSERT  &kp DELETE       &none
+                                                           &trans                    &trans               &trans                &none                  &trans       &none
             >;
         };
 

@@ -48,7 +48,7 @@ layers:
   - ''
   - '!'
   - '?'
-  - '='
+  - ':'
   - '['
   - ']'
   - Home
@@ -56,11 +56,11 @@ layers:
   - End
   - Reset
   - Boot
-  - /
-  - {t: '@', h: LEFT SHIFT}
-  - {t: '#', h: Ctrl}
-  - {t: $, h: LEFT ALT}
-  - {t: '%', h: LEFT WIN}
+  - ^
+  - {t: '|', h: LEFT SHIFT}
+  - {t: '&', h: Ctrl}
+  - {t: _, h: LEFT ALT}
+  - {t: '=', h: LEFT WIN}
   - '{'
   - '}'
   - ←
@@ -69,10 +69,10 @@ layers:
   - RIGHT SHIFT
   - ''
   - \
-  - ^
-  - '|'
-  - '&'
-  - _
+  - '@'
+  - '#'
+  - $
+  - '%'
   - (
   - )
   - PAGE UP

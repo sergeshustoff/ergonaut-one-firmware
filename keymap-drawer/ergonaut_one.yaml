@@ -14,16 +14,16 @@ layers:
   - ''
   - ''
   - Q
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: Ctrl}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT WIN}
   - G
   - H
-  - J
-  - K
-  - L
-  - P
+  - {t: J, h: RIGHT WIN}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: Ctrl}
+  - {t: P, h: RIGHT SHIFT}
   - ''''
   - '`'
   - Z
@@ -37,79 +37,37 @@ layers:
   - .
   - ;
   - /
-  - {t: ↹, h: LEFT SHIFT}
-  - {t: ESCAPE, h: NUM}
-  - ␣
+  - {t: ↹, h: SYM+ARR}
+  - {t: ESCAPE, h: F+NUM}
+  - {t: ␣, h: LEFT SHIFT}
   - BACKSPACE
-  - {t: ENTER, h: ARR}
-  - {t: ⌦, h: RIGHT SHIFT}
-  ARR:
+  - {t: ENTER, h: SYM+ARR}
+  - {t: ⌦, h: F+NUM}
+  SYM+ARR:
   - ''
   - ''
-  - F1
-  - F2
-  - F3
-  - F4
-  - PAGE UP
+  - '!'
+  - '?'
+  - '='
+  - '['
+  - ']'
   - Home
   - ↑
   - End
   - Reset
   - Boot
-  - ''
-  - ''
-  - F5
-  - F6
-  - F7
-  - F8
-  - PAGE DOWN
+  - /
+  - {t: '@', h: LEFT SHIFT}
+  - {t: '#', h: Ctrl}
+  - {t: $, h: LEFT ALT}
+  - {t: '%', h: LEFT WIN}
+  - '{'
+  - '}'
   - ←
   - ↓
   - →
-  - PRINTSCREEN
+  - RIGHT SHIFT
   - ''
-  - ''
-  - ''
-  - F9
-  - F10
-  - F11
-  - F12
-  - INSERT
-  - CUT
-  - COPY
-  - PASTE
-  - DELETE
-  - ''
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - Ctrl
-  - ''
-  - {type: held}
-  - ''
-  NUM:
-  - Boot
-  - Reset
-  - '!'
-  - '@'
-  - '['
-  - ']'
-  - '-'
-  - '7'
-  - '8'
-  - '9'
-  - {t: game, h: toggle}
-  - ''
-  - '='
-  - '#'
-  - $
-  - '%'
-  - '{'
-  - '}'
-  - +
-  - '4'
-  - '5'
-  - '6'
-  - '*'
   - \
   - ^
   - '|'
@@ -117,18 +75,60 @@ layers:
   - _
   - (
   - )
+  - PAGE UP
+  - PAGE DOWN
+  - INSERT
+  - DELETE
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  F+NUM:
+  - Boot
+  - Reset
+  - F1
+  - F2
+  - F3
+  - F4
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - {t: game, h: toggle}
+  - ''
+  - ''
+  - LEFT SHIFT
+  - {t: F5, h: Ctrl}
+  - {t: F6, h: LEFT ALT}
+  - {t: F7, h: LEFT WIN}
+  - F8
+  - +
+  - {t: '4', h: RIGHT WIN}
+  - {t: '5', h: RIGHT ALT}
+  - {t: '6', h: Ctrl}
+  - {t: '*', h: RIGHT SHIFT}
+  - /
+  - ''
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
   - '0'
   - '1'
   - '2'
   - '3'
   - '='
-  - /
+  - '%'
   - ''
   - {type: held}
   - ''
-  - RIGHT WIN
   - {t: ▽, type: trans}
-  - RIGHT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   ADJ:
   - Boot
   - '&studio_unlock'
@@ -166,11 +166,11 @@ layers:
   - ''
   - ''
   - Reset
-  - ''
+  - {type: held}
   - {type: held}
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   game:
   - '`'
@@ -258,46 +258,3 @@ layers:
   - ''
   - ''
   - ''
-combos:
-- p: [15, 16]
-  k: LEFT SHIFT
-  l: [MAIN, NUM, ARR]
-- p: [19, 20]
-  k: RIGHT SHIFT
-  l: [MAIN, ARR, NUM]
-- p: [13, 14]
-  k: Ctrl
-  l: [MAIN, ARR, NUM]
-- p: [21, 22]
-  k: Ctrl
-  l: [MAIN, ARR, NUM]
-- p: [27, 28]
-  k: LEFT ALT
-  l: [MAIN, ARR, NUM]
-- p: [32, 31]
-  k: RIGHT ALT
-  l: [MAIN, ARR, NUM]
-- p: [25, 26]
-  k: LEFT WIN
-  l: [MAIN, ARR, NUM]
-- p: [33, 34]
-  k: RIGHT WIN
-  l: [MAIN, ARR, NUM]
-- p: [15, 14]
-  k: Ctl+LEFT SHIFT
-  l: [MAIN, NUM, ARR]
-- p: [20, 21]
-  k: Ctl+RIGHT SHIFT
-  l: [MAIN, NUM, ARR]
-- p: [14, 27]
-  k: Ctl+LEFT ALT
-  l: [MAIN, NUM, ARR]
-- p: [32, 21]
-  k: Ctl+RIGHT ALT
-  l: [MAIN, NUM, ARR]
-- p: [15, 28]
-  k: Sft+LEFT ALT
-  l: [MAIN, NUM, ARR]
-- p: [31, 20]
-  k: Sft+RIGHT ALT
-  l: [MAIN, NUM, ARR]

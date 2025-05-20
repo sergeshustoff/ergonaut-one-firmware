@@ -40,9 +40,9 @@ layers:
   - ↹
   - {t: ESCAPE, h: F+NUM}
   - ␣
-  - {t: RIGHT SHIFT, h: sticky}
-  - {t: ENTER, h: SYM+ARR}
   - BACKSPACE
+  - {t: ENTER, h: SYM+ARR}
+  - {t: RIGHT SHIFT, h: sticky}
   SYM+ARR:
   - ''
   - ''

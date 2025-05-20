@@ -39,7 +39,7 @@ layers:
   - /
   - ↹
   - {t: ESCAPE, h: F+NUM}
-  - ␣
+  - {t: ␣, h: LEFT SHIFT}
   - BACKSPACE
   - {t: ENTER, h: SYM+ARR}
   - {t: RIGHT SHIFT, h: sticky}

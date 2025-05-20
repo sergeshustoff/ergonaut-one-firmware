@@ -37,12 +37,12 @@ layers:
   - .
   - ;
   - /
-  - {t: ↹, h: SYM+ARR}
+  - ↹
   - {t: ESCAPE, h: F+NUM}
-  - {t: ␣, h: LEFT SHIFT}
-  - BACKSPACE
+  - ␣
+  - {t: RIGHT SHIFT, h: sticky}
   - {t: ENTER, h: SYM+ARR}
-  - {t: ⌦, h: F+NUM}
+  - BACKSPACE
   SYM+ARR:
   - ''
   - ''
@@ -80,11 +80,11 @@ layers:
   - INSERT
   - DELETE
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   F+NUM:
   - Boot
@@ -166,11 +166,11 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - ''
   - {type: held}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   game:
   - '`'

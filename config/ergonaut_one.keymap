@@ -61,17 +61,17 @@
 &none      &none              &kp W         &kp E            &kp R            &kp T                 &kp Y          &kp U             &kp I             &kp O         &none               &none
 &kp Q      &hml LEFT_SHIFT A  &hml LCTRL S  &hml LEFT_ALT D  &hml LEFT_WIN F  &kp G                 &kp H          &hmr RIGHT_WIN J  &hmr RIGHT_ALT K  &hmr RCTRL L  &hmr RIGHT_SHIFT P  &kp SQT
 &kp GRAVE  &kp Z              &kp X         &kp C            &kp V            &kp B                 &kp N          &kp M             &kp COMMA         &kp DOT       &kp SEMICOLON       &kp SLASH
-                                            &kp TAB          &lt 2 ESCAPE     &mt LEFT_SHIFT SPACE  &kp BACKSPACE  &lt 1 ENTER       &sk RIGHT_SHIFT
+                                            &kp TAB          &lt 2 ESCAPE     &mt LEFT_SHIFT SPACE  &kp BACKSPACE  &lt 1 ENTER       &sk DELETE
             >;
         };
 
         lower_layer {
             display-name = "SYM+ARR";
             bindings = <
-&none          &none                 &kp EXCLAMATION       &kp QUESTION              &kp COLON            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME    &kp UP      &kp END     &sys_reset       &bootloader
-&kp CARET      &hml LEFT_SHIFT PIPE  &hml LCTRL AMPERSAND  &hml LEFT_ALT UNDERSCORE  &hml LEFT_WIN EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT    &kp DOWN    &kp RIGHT   &kp RIGHT_SHIFT  &none
-&kp BACKSLASH  &kp AT                &kp HASH              &kp DOLLAR                &kp PERCENT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K_UNDO  &kp K_REDO  &kp INSERT  &kp DELETE       &none
-                                                           &trans                    &trans               &trans                &none                  &trans      &none
+&none          &none                 &kp EXCLAMATION       &kp QUESTION              &kp COLON            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME   &kp UP         &kp END     &sys_reset       &bootloader
+&kp CARET      &hml LEFT_SHIFT PIPE  &hml LCTRL AMPERSAND  &hml LEFT_ALT UNDERSCORE  &hml LEFT_WIN EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT   &kp DOWN       &kp RIGHT   &kp RIGHT_SHIFT  &none
+&kp BACKSLASH  &kp AT                &kp HASH              &kp DOLLAR                &kp PERCENT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(Z)  &kp LC(LS(Z))  &kp INSERT  &kp DELETE       &none
+                                                           &trans                    &trans               &trans                &none                  &trans     &none
             >;
         };
 

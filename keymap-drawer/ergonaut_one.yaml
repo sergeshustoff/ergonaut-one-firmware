@@ -42,7 +42,7 @@ layers:
   - {t: ␣, h: LEFT SHIFT}
   - BACKSPACE
   - {t: ENTER, h: SYM+ARR}
-  - {t: RIGHT SHIFT, h: sticky}
+  - {t: DELETE, h: sticky}
   SYM+ARR:
   - ''
   - ''
@@ -75,8 +75,8 @@ layers:
   - '%'
   - (
   - )
-  - UNDO
-  - REDO
+  - Ctl+Z
+  - Ctl+Sft+Z
   - INSERT
   - DELETE
   - ''

@@ -68,10 +68,10 @@
         lower_layer {
             display-name = "SYM+ARR";
             bindings = <
-&none          &none                 &kp EXCLAMATION       &kp QUESTION              &kp COLON            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME     &kp UP         &kp END     &sys_reset       &bootloader
-&kp CARET      &hml LEFT_SHIFT PIPE  &hml LCTRL AMPERSAND  &hml LEFT_ALT UNDERSCORE  &hml LEFT_WIN EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT     &kp DOWN       &kp RIGHT   &kp RIGHT_SHIFT  &none
-&kp BACKSLASH  &kp AT                &kp HASH              &kp DOLLAR                &kp PERCENT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp PAGE_DOWN  &kp INSERT  &kp DELETE       &none
-                                                           &trans                    &trans               &trans                &none                  &trans       &none
+&none          &none                 &kp EXCLAMATION       &kp QUESTION              &kp COLON            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME    &kp UP      &kp END     &sys_reset       &bootloader
+&kp CARET      &hml LEFT_SHIFT PIPE  &hml LCTRL AMPERSAND  &hml LEFT_ALT UNDERSCORE  &hml LEFT_WIN EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT    &kp DOWN    &kp RIGHT   &kp RIGHT_SHIFT  &none
+&kp BACKSLASH  &kp AT                &kp HASH              &kp DOLLAR                &kp PERCENT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K_UNDO  &kp K_REDO  &kp INSERT  &kp DELETE       &none
+                                                           &trans                    &trans               &trans                &none                  &trans      &none
             >;
         };
 

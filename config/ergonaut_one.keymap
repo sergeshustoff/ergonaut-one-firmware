@@ -50,7 +50,93 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        lshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <15 16>;
+            layers = <0 2 1>;
+        };
+
+        rshift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <19 20>;
+            layers = <0 1 2>;
+        };
+
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 14>;
+            layers = <0 1 2>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <21 22>;
+            layers = <0 1 2>;
+        };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <27 28>;
+            layers = <0 1 2>;
+        };
+
+        ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <32 31>;
+            layers = <0 1 2>;
+        };
+
+        lwin {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <25 26>;
+            layers = <0 1 2>;
+        };
+
+        rwin {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <33 34>;
+            layers = <0 1 2>;
+        };
+
+        lctrl+shift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <15 14>;
+            layers = <0 2 1>;
+        };
+
+        rctrl+shift {
+            bindings = <&kp RC(RIGHT_SHIFT)>;
+            key-positions = <20 21>;
+            layers = <0 2 1>;
+        };
+
+        lctrl+alt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <14 27>;
+            layers = <0 2 1>;
+        };
+
+        rctrl+alt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <32 21>;
+            layers = <0 2 1>;
+        };
+
+        lshift+alt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <15 28>;
+            layers = <0 2 1>;
+        };
+
+        rshift+alt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <31 20>;
+            layers = <0 2 1>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

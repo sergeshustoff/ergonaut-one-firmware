@@ -14,16 +14,16 @@ layers:
   - '['
   - ']'
   - Q
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: Ctrl}
-  - {t: D, h: LEFT ALT}
-  - {t: F, h: LEFT WIN}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT WIN}
-  - {t: K, h: RIGHT ALT}
-  - {t: L, h: Ctrl}
-  - {t: P, h: RIGHT SHIFT}
+  - J
+  - K
+  - L
+  - P
   - ''''
   - '`'
   - Z
@@ -57,16 +57,16 @@ layers:
   - Reset
   - Boot
   - ^
-  - {t: '|', h: LEFT SHIFT}
-  - {t: '&', h: Ctrl}
-  - {t: _, h: LEFT ALT}
-  - {t: '=', h: LEFT WIN}
+  - '|'
+  - '&'
+  - _
+  - '='
   - '{'
   - '}'
   - ←
   - ↓
   - →
-  - RIGHT SHIFT
+  - ''
   - ''
   - \
   - '@'
@@ -100,16 +100,16 @@ layers:
   - {t: game, h: toggle}
   - ''
   - ''
-  - LEFT SHIFT
-  - {t: F5, h: Ctrl}
-  - {t: F6, h: LEFT ALT}
-  - {t: F7, h: LEFT WIN}
+  - ''
+  - F5
+  - F6
+  - F7
   - F8
   - +
-  - {t: '4', h: RIGHT WIN}
-  - {t: '5', h: RIGHT ALT}
-  - {t: '6', h: Ctrl}
-  - {t: '*', h: RIGHT SHIFT}
+  - '4'
+  - '5'
+  - '6'
+  - '*'
   - /
   - ''
   - ''

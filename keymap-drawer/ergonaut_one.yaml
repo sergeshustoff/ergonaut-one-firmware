@@ -291,16 +291,16 @@ combos:
   l: [MAIN, F+NUM, SYM+ARR]
 - p: [33, 34]
   k: RIGHT SHIFT
-  l: [MAIN, SYM+ARR]
+  l: [MAIN, F+NUM]
 - p: [21, 22]
   k: Ctrl
-  l: [MAIN, SYM+ARR]
+  l: [MAIN, F+NUM]
 - p: [19, 20]
   k: RIGHT ALT
-  l: [MAIN, SYM+ARR]
+  l: [MAIN, F+NUM]
 - p: [31, 32]
   k: RIGHT WIN
-  l: [MAIN, SYM+ARR]
+  l: [MAIN, F+NUM]
 - p: [21, 34]
   k: Ctl+RIGHT SHIFT
   l: [MAIN, F+NUM]

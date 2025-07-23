@@ -9,6 +9,8 @@
 #define QUICK_TAP_MS 200
 #define REQUIRE_PRIOR_IDLE_MS 175
 #define TAPPING_TERM_MS 280
+#define COMBO_PRIOR_IDLE 100
+#define COMBO_TIMEOUT 70
 
 &lt { quick-tap-ms = <200>; };
 
@@ -57,180 +59,180 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <26 25>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lctrl {
             bindings = <&kp LCTRL>;
             key-positions = <13 14>;
             layers = <0 1 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lalt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <15 16>;
             layers = <0 1 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lwin {
             bindings = <&kp LEFT_WIN>;
             key-positions = <27 28>;
             layers = <0 1 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lctrl+shift {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <14 25>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lctrl+alt {
             bindings = <&kp LC(LEFT_ALT)>;
             key-positions = <14 15>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lshift+alt {
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <15 26>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lctrl+win {
             bindings = <&kp LC(LEFT_WIN)>;
             key-positions = <14 27>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lshift+win {
             bindings = <&kp LS(LEFT_WIN)>;
             key-positions = <26 27>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         lalt+win {
             bindings = <&kp LA(LEFT_WIN)>;
             key-positions = <15 28>;
             layers = <0 2 1>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rshift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 34>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rctrl {
             bindings = <&kp RCTRL>;
             key-positions = <21 22>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <19 20>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rwin {
             bindings = <&kp RIGHT_WIN>;
             key-positions = <31 32>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rctrl+shift {
             bindings = <&kp RC(RIGHT_SHIFT)>;
             key-positions = <21 34>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rctrl+alt {
             bindings = <&kp RC(RIGHT_ALT)>;
             key-positions = <21 20>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rshift+alt {
             bindings = <&kp RS(RIGHT_ALT)>;
             key-positions = <20 33>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rctrl+win {
             bindings = <&kp RC(RIGHT_WIN)>;
             key-positions = <32 21>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         rshift+win {
             bindings = <&kp LS(LEFT_WIN)>;
             key-positions = <32 33>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
 
         ralt+win {
             bindings = <&kp LA(LEFT_WIN)>;
             key-positions = <31 20>;
             layers = <0 2>;
-            timeout-ms = <50>;
+            timeout-ms = COMBO_TIMEOUT;
             slow-release;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = COMBO_PRIOR_IDLE;
         };
     };
 

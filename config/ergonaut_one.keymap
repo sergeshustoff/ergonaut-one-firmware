@@ -13,9 +13,7 @@
 #define COMBO_PRIOR_IDLE 100
 #define COMBO_TIMEOUT 70
 
-&lt { 
-    tapping-term-ms = <150>;
-};
+&lt { tapping-term-ms = <150>; };
 
 &mt {
     tapping-term-ms = <150>;
@@ -316,10 +314,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans          &trans          &trans           &trans  &trans
-                        &trans  &trans  &trans  &trans     &trans          &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &msc SCRL_UP    &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &trans     &trans
+&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans          &trans           &trans     &trans
+                           &trans     &trans     &trans  &trans          &trans           &trans
             >;
         };
     };

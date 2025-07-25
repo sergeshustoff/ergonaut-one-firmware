@@ -37,10 +37,10 @@ layers:
   - .
   - ;
   - /
-  - ↹
+  - {t: ↹, h: mouse}
   - {t: ESCAPE, h: F+NUM}
   - {t: ␣, h: LEFT SHIFT}
-  - BACKSPACE
+  - {t: BACKSPACE, h: LEFT SHIFT}
   - {t: ENTER, h: SYM+ARR}
   - {t: DELETE, h: sticky}
   SYM+ARR:
@@ -258,6 +258,49 @@ layers:
   - ''
   - ''
   - ''
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Left Click
+  - Mouse ↑
+  - Right Click
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Middle Click
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [26, 25]
   k: LEFT SHIFT

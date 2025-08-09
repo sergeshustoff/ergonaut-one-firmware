@@ -42,7 +42,7 @@ layers:
   - ␣
   - LEFT SHIFT
   - {t: ENTER, h: SYM+ARR}
-  - {t: BACKSPACE, h: sticky}
+  - BACKSPACE
   SYM+ARR:
   - ''
   - ''

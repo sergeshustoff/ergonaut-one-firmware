@@ -39,10 +39,10 @@ layers:
   - /
   - {t: ↹, h: mouse}
   - {t: ESCAPE, h: F+NUM}
-  - {t: ␣, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: LEFT SHIFT}
+  - ␣
+  - LEFT SHIFT
   - {t: ENTER, h: SYM+ARR}
-  - {t: DELETE, h: sticky}
+  - {t: BACKSPACE, h: sticky}
   SYM+ARR:
   - ''
   - ''
@@ -69,10 +69,10 @@ layers:
   - ''
   - ''
   - \
-  - '@'
+  - '%'
   - '#'
   - $
-  - '%'
+  - '@'
   - (
   - )
   - Ctl+Z
